@@ -1,7 +1,13 @@
-/* Diagnostic */
 
+@import url('chubbo.css');
+/* Diagnostic */
 * {
-  outline: 1px dotted darkgray;
+  outline: 1px solid black;
+  font-size: 1.5em;
+}
+
+body{
+  background: purple;
 }
 
 /* Layout  */
@@ -15,8 +21,13 @@ main {
 }
 
 main time {
+  background: green;
 /*  center content  */
   text-align: center;
+  display: grid;
+  justify-content: space-evenly;
 }
+
+
 
 

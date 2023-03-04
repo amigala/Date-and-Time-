@@ -8,3 +8,4 @@
 
 ## Citations
 * [Favicon Generator](https://favicon.io/)
+* [Favicon](https://www.figma.com/file/kRFJg4hc6NsuathvlrqfeW/Material-Design-Icons-(Community)-(Copy)?node-id=6%3A16321&t=MnvVprQdrBJyvw8H-0)
