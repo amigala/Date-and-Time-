@@ -3,25 +3,30 @@
 /* Diagnostic */
 * {
   outline: 1px solid black;
-  font-size: 1.5em;
+  font-size: 1.5em
 }
 
 body{
-  background: purple;
+  font-family: 'Chubbo-Extralight';
+  font-size: 25px;
+  background: #69A297;
 }
 
 /* Layout  */
 main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* verrtical center   */
+  /* vertical center   */
   align-content: center;
+  column-gap: 30px;
   /*  extend to viewport height  */
   height: 100vh;
+ 
 }
 
 main time {
-  background: green;
+  background: #84B59F;
+  border-radius: 35px;
 /*  center content  */
   text-align: center;
   display: grid;
