@@ -2,14 +2,14 @@
 @import url('chubbo.css');
 /* Diagnostic */
 * {
-  outline: 1px solid black;
-  font-size: 1.5em
+  font-size: 1.5em;
+  
 }
 
 body{
   font-family: 'Chubbo-Extralight';
   font-size: 25px;
-  background: #69A297;
+  background-image: linear-gradient(to bottom right, #99E2B4, #469D89, #14746F);
 }
 
 /* Layout  */
@@ -18,15 +18,15 @@ main {
   grid-template-columns: repeat(2, 1fr);
   /* vertical center   */
   align-content: center;
-  column-gap: 30px;
+  justify-items: center;
   /*  extend to viewport height  */
   height: 100vh;
  
 }
 
 main time {
-  background: #84B59F;
-  border-radius: 35px;
+  background: #88D4AB;
+  border-radius: 15px;
 /*  center content  */
   text-align: center;
   display: grid;
