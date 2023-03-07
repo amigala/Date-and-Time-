@@ -26,7 +26,7 @@ main {
 
 main time {
   background: #88D4AB;
-  border-radius: 15px;
+  padding: 2em;
 /*  center content  */
   text-align: center;
   display: grid;
